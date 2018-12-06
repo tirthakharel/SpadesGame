@@ -2,7 +2,8 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class Game implements Runnable {
+public class Game extends JFrame implements Runnable {
+
     public void run(){
 
         final JFrame frame = new JFrame("Spades");
@@ -14,5 +15,8 @@ public class Game implements Runnable {
         frame.setVisible(true);
     }
 
-    public static void main(String[] args) { SwingUtilities.invokeLater(new Game()); }
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Game());
+
+    }
 }
