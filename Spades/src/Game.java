@@ -6,7 +6,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.swing.*;
+import javax.swing.border.Border;
 import java.io.RandomAccessFile;
+import java.util.Collection;
 
 public class Game extends JFrame implements Runnable {
 
@@ -28,7 +30,10 @@ public class Game extends JFrame implements Runnable {
         final JPanel currentScoresPanel = new JPanel();
         final JButton startGame = new JButton("New Game");
         final JButton instructionsButton = new JButton("Instructions");
-        final GameArea g = new GameArea(new JLabel("Playing"));
+        final GameArea g = new GameArea();
+
+
+
         String instructions = "[Put instructions here]";
         instructionsButton.addActionListener(new ActionListener() {
             @Override
@@ -41,8 +46,12 @@ public class Game extends JFrame implements Runnable {
         startGame.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                g.playing = true;
-
+                JOptionPane.showMessageDialog(g, "Are you sure?");
+                final GameArea g2 = new GameArea();
+                frame.remove(g);
+                frame.add(g2);
+                frame.revalidate();
+                frame.repaint();
             }
         });
         //final JLabel currentPlayer = new JLabel("");
@@ -70,7 +79,9 @@ public class Game extends JFrame implements Runnable {
 
                     JLabel playerOne = new JLabel(name1 + ":");
                     JLabel playerTwo = new JLabel(name2 + ":");
-                    scorePanel.add(playerOne); scorePanel.add(playerTwo); playerOne.setText("hes");
+                    g.setPlayerOneText(name1); g.setPlayerTwoText(name2);
+                    scorePanel.add(playerOne); scorePanel.add(playerTwo);
+
                     currentScoresPanel.add(playerOne); currentScoresPanel.add(playerTwo);
                     currentScoresPanel.setBackground(Color.GREEN);
                 } catch(IOException ex){
