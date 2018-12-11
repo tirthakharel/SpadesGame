@@ -13,6 +13,9 @@ import java.util.Collection;
 public class Game extends JFrame implements Runnable {
 
 
+    public String name1, name2;
+    public static JPanel currentScoresPanel;
+
     public void run(){
     try {
         final JFrame frame = new JFrame("Spades");
@@ -27,14 +30,22 @@ public class Game extends JFrame implements Runnable {
         final JPanel imagePanel = new JPanel();
         final JButton startButton = new JButton();
         final JPanel controlPanel = new JPanel();
-        final JPanel currentScoresPanel = new JPanel();
+        currentScoresPanel = new JPanel();
         final JButton startGame = new JButton("New Game");
         final JButton instructionsButton = new JButton("Instructions");
         final GameArea g = new GameArea();
 
-
-
-        String instructions = "[Put instructions here]";
+        String instructions = "In this version of spades, there are 2 players. Each player\n" +
+                "gets 13 randomized cards. Each player sets a bid for how many rounds they think they can win.\n" +
+                "In order to win a round, one must have the higher value card in the round. \n" +
+                "Also, whatever suit player 1 leads with, player 2 has to follow - if plyaer 2 does\n" +
+                "not have that suit in their deck, they can throw whatever\n" +
+                "card they wish. If the card they throw down is a spades, then they\n" +
+                "win that round, unless the other player threw down a higher value spades.\n" +
+                "At the end, each person has a tally of how many rounds they won and \n" +
+                "if they matched their bid, they get those points added. If they didn't \n" +
+                "match their bid, they get those points subtracted. Whoever has the higher \n" +
+                "amount of points wins the game. Enjoy!";
         instructionsButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -55,7 +66,7 @@ public class Game extends JFrame implements Runnable {
             }
         });
         //final JLabel currentPlayer = new JLabel("");
-        final JPanel scorePanel = new JPanel();
+
 
         controlPanel.add(startGame);
         controlPanel.add(instructionsButton);
@@ -65,36 +76,19 @@ public class Game extends JFrame implements Runnable {
         startButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                try{
-                    String name1 = JOptionPane.showInputDialog(frame, "Please enter a nickname for Player 1:", null);
-                    String name2 = JOptionPane.showInputDialog(frame, "Please enter a nickname for Player 2:", null);
-
-                    File f = new File("resources/game_files/usernames.txt");
-                    RandomAccessFile r = new RandomAccessFile(f, "rw");
-                    r.setLength(0);
-                    r.close();
-                    FileWriter fw = new FileWriter(f);
-                    fw.write(name1 + "\n" + name2);
-                    fw.close();
-
-                    JLabel playerOne = new JLabel(name1 + ":");
-                    JLabel playerTwo = new JLabel(name2 + ":");
-                    g.setPlayerOneText(name1); g.setPlayerTwoText(name2);
-                    scorePanel.add(playerOne); scorePanel.add(playerTwo);
-
-                    currentScoresPanel.add(playerOne); currentScoresPanel.add(playerTwo);
-                    currentScoresPanel.setBackground(Color.GREEN);
-                } catch(IOException ex){
-                    System.out.println(ex.getMessage());
-                }
+                name1 = JOptionPane.showInputDialog(frame, "Please enter a nickname for Player 1:", null);
+                name2 = JOptionPane.showInputDialog(frame, "Please enter a nickname for Player 2:", null);
+                JLabel playerOne = new JLabel(name1 + ":");
+                JLabel playerTwo = new JLabel(name2 + ":");
+                g.setPlayerOneText(name1); g.setPlayerTwoText(name2);
+                currentScoresPanel.add(playerOne); currentScoresPanel.add(playerTwo);
+                currentScoresPanel.setBackground(Color.GREEN);
                 controlPanel.setBackground(Color.GREEN);
                 imagePanel.setVisible(false);
                 startButtonPanel.setVisible(false);
                 frame.add(controlPanel, BorderLayout.SOUTH);
-                frame.add(scorePanel, BorderLayout.WEST);
                 frame.add(g);
                 frame.add(currentScoresPanel, BorderLayout.WEST);
-
             }
         });
 

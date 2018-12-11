@@ -9,9 +9,9 @@ import java.io.IOException;
 
 public class Card extends JButton {
 
-    private static int cardValue;
-    private static String cardType;
-    public static String IMG_FILE;
+    private int cardValue;
+    private String cardType;
+    private String IMG_FILE;
     private static BufferedImage img;
 
 

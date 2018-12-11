@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b1c377f-37fd-4062-b5db-3f8672d38dd5" name="Default Changelist" comment="Trial commit for IntelliJ">
-      <change afterPath="$PROJECT_DIR$/resources/game_files/scores.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ScorePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Spades/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/Card.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Spades/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/Deck.class" afterDir="false" />
@@ -12,121 +10,25 @@
       <change beforePath="$PROJECT_DIR$/out/production/Spades/Game$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/Game$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Spades/Game$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/Game$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Spades/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spades/GameArea$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/GameArea$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spades/GameArea$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/GameArea$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Spades/GameArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/GameArea.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/GameObj.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/10_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/10_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/10_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/10_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/10_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/10_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/10_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/10_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/11_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/11_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/11_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/11_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/11_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/11_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/11_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/11_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/12_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/12_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/12_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/12_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/12_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/12_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/12_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/12_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/13_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/13_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/13_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/13_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/13_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/13_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/13_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/13_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/14_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/14_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/14_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/14_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/14_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/14_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/14_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/14_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/2_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/2_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/2_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/2_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/2_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/2_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/2_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/2_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/3_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/3_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/3_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/3_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/3_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/3_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/3_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/3_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/4_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/4_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/4_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/4_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/4_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/4_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/4_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/4_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/5_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/5_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/5_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/5_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/5_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/5_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/5_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/5_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/6_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/6_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/6_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/6_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/6_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/6_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/6_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/6_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/7_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/7_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/7_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/7_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/7_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/7_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/7_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/7_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/8_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/8_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/8_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/8_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/8_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/8_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/8_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/8_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/9_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/9_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/9_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/9_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/9_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/9_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/card_deck/9_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/card_deck/9_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spades/game_files/covered_deck.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/game_files/covered_deck.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spades/Hand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/Hand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spades/ScorePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spades/Suit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spades/game_files/scores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/game_files/scores.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Spades/game_files/usernames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spades/game_files/usernames.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/10_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/10_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/10_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/10_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/10_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/10_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/10_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/10_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/11_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/11_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/11_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/11_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/11_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/11_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/11_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/11_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/12_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/12_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/12_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/12_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/12_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/12_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/12_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/12_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/13_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/13_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/13_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/13_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/13_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/13_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/13_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/13_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/14_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/14_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/14_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/14_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/14_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/14_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/14_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/14_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/2_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/2_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/2_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/2_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/2_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/2_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/2_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/2_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/3_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/3_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/3_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/3_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/3_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/3_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/3_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/3_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/4_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/4_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/4_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/4_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/4_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/4_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/4_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/4_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/5_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/5_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/5_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/5_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/5_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/5_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/5_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/5_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/6_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/6_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/6_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/6_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/6_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/6_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/6_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/6_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/7_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/7_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/7_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/7_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/7_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/7_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/7_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/7_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/8_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/8_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/8_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/8_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/8_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/8_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/8_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/8_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/9_clubs.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/9_clubs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/9_diamonds.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/9_diamonds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/9_hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/9_hearts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card_deck/9_spades.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card_deck/9_spades.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/game_files/covered_deck.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/game_files/covered_deck.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Spades/myTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Spades/myTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/game_files/scores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/game_files/scores.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/game_files/usernames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/game_files/usernames.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScorePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Suit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/myTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/myTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -138,12 +40,45 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/myTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="94" column="5" lean-forward="true" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="58" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Spades/test/myTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="96" lean-forward="true" selection-end-line="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-644">
-              <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+            <state relative-caret-position="-672">
+              <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
               <folding>
-                <element signature="e#4706#4707#0" expanded="true" />
+                <element signature="e#5015#5016#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,15 +87,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Hand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            <state relative-caret-position="360">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#350#351#0" expanded="true" />
                 <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
                 <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#1710#1711#0" expanded="true" />
+                <element signature="e#1749#1750#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,27 +105,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameArea.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="63" column="45" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+            <state relative-caret-position="-749">
+              <caret line="44" column="54" lean-forward="true" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
               <folding>
-                <element signature="e#4387#4388#0" expanded="true" />
-                <element signature="e#4419#4420#0" expanded="true" />
-                <element signature="e#4467#4468#0" expanded="true" />
-                <element signature="e#4499#4500#0" expanded="true" />
-                <element signature="e#6519#6520#0" expanded="true" />
-                <element signature="e#6558#6559#0" expanded="true" />
-                <element signature="e#6614#6615#0" expanded="true" />
-                <element signature="e#6675#6676#0" expanded="true" />
+                <element signature="class#1821:2704" />
+                <element signature="class#2748:3631" />
+                <element signature="e#2356#3455#1" />
+                <element signature="e#3129#4171#1" />
+                <element signature="method#switchTurn#0;class#GameArea#0" />
+                <element signature="e#6437#6874#1" />
+                <element signature="e#6554#6721#1" />
+                <element signature="e#6727#6893#1" />
+                <element signature="e#7907#8802#1" />
+                <element signature="method#isValidMove#0;class#GameArea#0" />
+                <element signature="method#endGame#0;class#GameArea#0" />
+                <element signature="e#13198#13199#0" expanded="true" />
+                <element signature="e#13237#13238#0" expanded="true" />
+                <element signature="e#13293#13294#0" expanded="true" />
+                <element signature="e#13354#13355#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ScorePanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -202,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
-              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+            <state relative-caret-position="42">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1129#1130#0" expanded="true" />
@@ -215,11 +149,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+            <state relative-caret-position="-149">
+              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1516#1517#0" expanded="true" />
@@ -242,6 +176,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Syste</find>
+      <find>System.out.p</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -254,18 +194,19 @@
         <option value="$PROJECT_DIR$/game_files/usernames.txt" />
         <option value="$PROJECT_DIR$/src/CardObj.java" />
         <option value="$PROJECT_DIR$/src/Suit.java" />
-        <option value="$PROJECT_DIR$/test/myTests.java" />
         <option value="$PROJECT_DIR$/src/GameObj.java" />
-        <option value="$PROJECT_DIR$/src/Game.java" />
-        <option value="$PROJECT_DIR$/src/ScorePanel.java" />
         <option value="$PROJECT_DIR$/src/Card.java" />
-        <option value="$PROJECT_DIR$/src/GameArea.java" />
-        <option value="$PROJECT_DIR$/src/Hand.java" />
         <option value="$PROJECT_DIR$/src/Deck.java" />
+        <option value="$PROJECT_DIR$/src/Hand.java" />
+        <option value="$PROJECT_DIR$/src/ScorePanel.java" />
+        <option value="$PROJECT_DIR$/src/GameArea.java" />
+        <option value="$PROJECT_DIR$/src/Game.java" />
+        <option value="$PROJECT_DIR$/test/myTests.java" />
+        <option value="$PROJECT_DIR$/README.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="14" />
     <option name="y" value="34" />
     <option name="width" value="1400" />
@@ -314,17 +255,6 @@
             <path>
               <item name="Spades" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="Spades" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Spades" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Spades" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="game_files" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Spades" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Spades" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -346,7 +276,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544467597946" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544557122413" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -374,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Game">
+  <component name="RunManager" selected="JUnit.myTests">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Game" />
       <module name="Spades" />
@@ -390,26 +320,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="myTests.secondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="myTests.HandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spades" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="myTests" />
-      <option name="METHOD_NAME" value="secondTest" />
+      <option name="METHOD_NAME" value="HandTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="junit-4.12.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <option name="JAR_PATH" value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
-      <method v="2" />
+    <configuration name="myTests.HandTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spades" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="myTests" />
+      <option name="METHOD_NAME" value="HandTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myTests.HandTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spades" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="myTests" />
+      <option name="METHOD_NAME" value="HandTest3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Game" />
-        <item itemvalue="JUnit.myTests.secondTest" />
         <item itemvalue="JUnit.myTests" />
-        <item itemvalue="JAR Application.junit-4.12.jar" />
+        <item itemvalue="JUnit.myTests.HandTest3" />
+        <item itemvalue="JUnit.myTests.HandTest" />
+        <item itemvalue="JUnit.myTests.HandTest2" />
+        <item itemvalue="Application.Game" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +371,7 @@
       <option name="presentableId" value="Default" />
       <updated>1543639700551</updated>
       <workItem from="1543639707077" duration="4516000" />
-      <workItem from="1543938637825" duration="55854000" />
+      <workItem from="1543938637825" duration="70649000" />
     </task>
     <task id="LOCAL-00001" summary="Edited main Game file for JFrame window">
       <created>1543713226248</created>
@@ -444,42 +391,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="myTests_secondTest - 2018.12.09 at 21h 55m 24s.xml">
-      <configuration name="myTests.secondTest" configurationId="JUnit" />
+    <history-entry file="myTests_HandTest2 - 2018.12.10 at 21h 55m 00s.xml">
+      <configuration name="myTests.HandTest2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myTests_secondTest - 2018.12.09 at 21h 56m 55s.xml">
-      <configuration name="myTests.secondTest" configurationId="JUnit" />
+    <history-entry file="myTests - 2018.12.10 at 21h 55m 18s.xml">
+      <configuration name="myTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myTests_secondTest - 2018.12.09 at 21h 57m 39s.xml">
-      <configuration name="myTests.secondTest" configurationId="JUnit" />
+    <history-entry file="myTests - 2018.12.10 at 21h 55m 39s.xml">
+      <configuration name="myTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myTests_secondTest - 2018.12.09 at 21h 58m 40s.xml">
-      <configuration name="myTests.secondTest" configurationId="JUnit" />
+    <history-entry file="myTests - 2018.12.10 at 21h 55m 51s.xml">
+      <configuration name="myTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myTests_secondTest - 2018.12.09 at 21h 59m 15s.xml">
-      <configuration name="myTests.secondTest" configurationId="JUnit" />
+    <history-entry file="myTests_HandTest - 2018.12.10 at 21h 56m 14s.xml">
+      <configuration name="myTests.HandTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myTests_secondTest - 2018.12.09 at 22h 02m 05s.xml">
-      <configuration name="myTests.secondTest" configurationId="JUnit" />
+    <history-entry file="myTests_HandTest - 2018.12.10 at 21h 56m 24s.xml">
+      <configuration name="myTests.HandTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myTests_secondTest - 2018.12.09 at 22h 02m 29s.xml">
-      <configuration name="myTests.secondTest" configurationId="JUnit" />
+    <history-entry file="myTests_HandTest3 - 2018.12.10 at 21h 57m 12s.xml">
+      <configuration name="myTests.HandTest3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myTests_secondTest - 2018.12.09 at 22h 03m 50s.xml">
-      <configuration name="myTests.secondTest" configurationId="JUnit" />
+    <history-entry file="myTests_HandTest3 - 2018.12.10 at 21h 57m 32s.xml">
+      <configuration name="myTests.HandTest3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myTests_secondTest - 2018.12.09 at 22h 04m 32s.xml">
-      <configuration name="myTests.secondTest" configurationId="JUnit" />
+    <history-entry file="myTests - 2018.12.10 at 21h 57m 53s.xml">
+      <configuration name="myTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myTests_secondTest - 2018.12.09 at 22h 18m 58s.xml">
-      <configuration name="myTests.secondTest" configurationId="JUnit" />
+    <history-entry file="myTests - 2018.12.10 at 21h 58m 03s.xml">
+      <configuration name="myTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60370000" />
+    <option name="totallyTimeSpent" value="75165000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -487,7 +434,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24606581" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24606581" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.4992636" weight="0.2939759" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -495,8 +442,8 @@
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50143063" side_tool="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.4985694" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.4985694" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -646,18 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/myTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/card_deck/4_diamonds.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -680,44 +615,38 @@
     <entry file="file://$PROJECT_DIR$/resources/game_files/scores.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/ScorePanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-644">
-          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding>
-            <element signature="e#4706#4707#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ScorePanel.java">
+    <entry file="file://$PROJECT_DIR$/src/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="63" column="45" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+        <state relative-caret-position="-149">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
           <folding>
-            <element signature="e#4387#4388#0" expanded="true" />
-            <element signature="e#4419#4420#0" expanded="true" />
-            <element signature="e#4467#4468#0" expanded="true" />
-            <element signature="e#4499#4500#0" expanded="true" />
-            <element signature="e#6519#6520#0" expanded="true" />
-            <element signature="e#6558#6559#0" expanded="true" />
-            <element signature="e#6614#6615#0" expanded="true" />
-            <element signature="e#6675#6676#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1551#1552#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        <state relative-caret-position="42">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1129#1130#0" expanded="true" />
@@ -728,32 +657,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hand.java">
+    <entry file="file://$PROJECT_DIR$/src/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        <state relative-caret-position="-672">
+          <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#5015#5016#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Deck.java">
+    <entry file="file://$PROJECT_DIR$/src/GameArea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        <state relative-caret-position="-749">
+          <caret line="44" column="54" lean-forward="true" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+          <folding>
+            <element signature="class#1821:2704" />
+            <element signature="class#2748:3631" />
+            <element signature="e#2356#3455#1" />
+            <element signature="e#3129#4171#1" />
+            <element signature="method#switchTurn#0;class#GameArea#0" />
+            <element signature="e#6437#6874#1" />
+            <element signature="e#6554#6721#1" />
+            <element signature="e#6727#6893#1" />
+            <element signature="e#7907#8802#1" />
+            <element signature="method#isValidMove#0;class#GameArea#0" />
+            <element signature="method#endGame#0;class#GameArea#0" />
+            <element signature="e#13198#13199#0" expanded="true" />
+            <element signature="e#13237#13238#0" expanded="true" />
+            <element signature="e#13293#13294#0" expanded="true" />
+            <element signature="e#13354#13355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/myTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="94" column="5" lean-forward="true" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-            <element signature="e#1551#1552#0" expanded="true" />
-            <element signature="e#1585#1586#0" expanded="true" />
-            <element signature="e#1629#1630#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
+            <element signature="e#1749#1750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Spades/test/myTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="96" lean-forward="true" selection-end-line="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="58" selection-end-column="5" />
         </state>
       </provider>
     </entry>

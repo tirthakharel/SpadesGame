@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.io.*;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Objects;
 
@@ -21,6 +22,19 @@ public class Hand extends JPanel {
 
     public Collection<Card> getCards(){
         return cards;
+    }
+
+    public Collection<Card> hiddenCards(){
+        Collection<Card> hiddenCards = new ArrayList<>();
+        for(Card c: this.getCards()){
+            try {
+                Card cd = new Card(0, "covered");
+                hiddenCards.add(cd);
+            } catch (IOException e){
+                System.out.println("pooey");
+            }
+        }
+        return hiddenCards;
     }
 
     public boolean onlySpadesLeft(){

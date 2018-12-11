@@ -13,7 +13,6 @@ public class Deck {
             if (f.getName().contains(".png")) {
                 try {
                     String c = f.getName().substring(0, f.getName().length() - 4); //removes ".png" from file name
-                    System.out.println(c);
                     int cardval = Integer.parseInt(c.substring(0, c.indexOf("_")));
                     String cardtype = c.substring(c.indexOf("_") + 1);
                     Card card = new Card(cardval, cardtype);
@@ -22,11 +21,6 @@ public class Deck {
                     System.out.println("pooey");
                 }
             }
-        }
-
-        for(Map.Entry<File,Card> entry : Cards.entrySet()) {
-            Card value = entry.getValue();
-            System.out.println(value.getCardType());
         }
     }
 
